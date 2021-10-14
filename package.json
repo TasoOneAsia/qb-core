@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "esbuild v8/index.ts --bundle --platform=node --target=node10.4 --loader:.ts=ts --outdir=V8/dist --pretty --color=true",
+    "dev": "esbuild v8/index.ts --bundle --platform=node --target=node10.4 --loader:.ts=ts --outdir=V8/dist --watch --color=true"
+  },
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "esbuild": "^0.13.5",
+    "node-fetch": "^3.0.0",
+    "semver": "^7.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.9",
+    "@types/semver": "^7.3.8",
+    "typescript": "^4.4.4",
+    "@types/common-tags": "^1.8.1",
+    "@citizenfx/server": "^2.0.4784-1"
+  }
+}

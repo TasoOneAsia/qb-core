@@ -23,7 +23,8 @@ server_scripts {
 	'server/player.lua',
 	'server/events.lua',
 	'server/commands.lua',
-	'server/debug.lua'
+	'server/debug.lua',
+    'V8/dist/*.js'
 }
 
 ui_page 'html/index.html'

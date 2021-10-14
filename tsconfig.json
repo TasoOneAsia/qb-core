@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "dist",
+    "lib": ["DOM", "ES2020"],
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["@citizenfx/server", "@types/node"],
+    "rootDir": "V8",
+  },
+  "include": [
+    "v8"
+  ],
+  "exclude": ["node_modules"]
+}
